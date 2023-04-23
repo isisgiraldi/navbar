@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #131415;
+    padding: 1rem;
+}
+ul a{
+    color: rgb(230, 75, 147);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
